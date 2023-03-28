@@ -18,4 +18,4 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::post('/chatbot', [ChatbotController::class, 'generateResponse']);
+// Route::post('/chatbot', [ChatbotController::class, 'generateResponse']);
